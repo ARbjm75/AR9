@@ -4,6 +4,8 @@ CACHE MANIFEST
 
 CACHE:
 index.html
+ar.png
+Style.css
 css/index.css
 js/index.js
 payloads/Jailbreak.js
