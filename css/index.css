@@ -3,7 +3,9 @@ html, body {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background: #e60505;
+    background: url(ar.png);
+	background-position: center;
+	background-size:cover;
 }
 
 body {
@@ -11,6 +13,7 @@ body {
     min-width: 100vw;
     position: relative;
     font-family: 'Segoe UI', Arial, sans-serif;
+	
 }
 
 .header {
@@ -26,10 +29,10 @@ body {
 
 .header-title {
     color: #0e0be6;
-    font-size: 20px;
+    font-size: 30px;
     font-weight: bold;
     letter-spacing: 2px;
-    text-shadow: 0px 0px 15px #FFB84D;
+    text-shadow: 0px 0px 25px #FFB84D;
     background: #6f707433;
     border-radius: 18px;
     padding: 10px 48px;
@@ -139,7 +142,7 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-color: white;
+    background-color: black;
     border: 1px solid #ccc;
     padding: 20px;
     z-index: 1001;
