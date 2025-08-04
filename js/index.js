@@ -146,7 +146,7 @@ function CheckFW() {
       });
     }
 
-    document.title = "PSFree | " + fwVersion;
+    document.title = "AR Playstation " + fwVersion;
   } else {
     let platform = 'Unknown platform';
 
