@@ -3,9 +3,7 @@ html, body {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background: url(ar.png);
-	background-position: center;
-	background-size:cover;
+    background: #222222;
 }
 
 body {
@@ -13,7 +11,6 @@ body {
     min-width: 100vw;
     position: relative;
     font-family: 'Segoe UI', Arial, sans-serif;
-	
 }
 
 .header {
@@ -28,11 +25,11 @@ body {
 }
 
 .header-title {
-    color: #0e0be6;
-    font-size: 30px;
+    color: #FFF;
+    font-size: 20px;
     font-weight: bold;
     letter-spacing: 2px;
-    text-shadow: 0px 0px 25px #FFB84D;
+    text-shadow: 0px 0px 15px #FFB84D;
     background: #6f707433;
     border-radius: 18px;
     padding: 10px 48px;
@@ -98,7 +95,7 @@ body {
     width: 90%;
     height: 18%;
     margin: 0 auto; 
-    border: 1px solid #a806f3;
+    border: 1px solid #FFB84D;
     padding: 10px; 
     display: flex;
     align-items: center;
@@ -142,7 +139,7 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-color: black;
+    background-color: white;
     border: 1px solid #ccc;
     padding: 20px;
     z-index: 1001;
@@ -213,7 +210,7 @@ body {
 }
 
 #DebugConsole h3 {
-    color: #3105f5;
+    color: #FFF;
     font-size: 1em;
     font-weight: bold;
     letter-spacing: .08em;
@@ -237,7 +234,7 @@ body {
     width: 80%;
     height: 20%;
     margin: 0 auto;
-    border: 1px solid #dc04f8; 
+    border: 1px solid #FFB84D; 
     padding: 10px; 
     display: grid;
     grid-template-columns: repeat(5, 1fr);
@@ -252,7 +249,7 @@ body {
 #button-container button {
     padding: 10px 0;
     font-size: 15px;
-    border: 2px solid #c505f5;
+    border: 2px solid #FFB84D;
     border-radius: 10px;
     background-color: #6f707433;
     color: white;
@@ -265,7 +262,7 @@ body {
 }
 
 #button-container button:hover {
-    background-color: #d007f8;
+    background-color: #FFB84D;
     color: #222222;
 }
 
@@ -343,7 +340,7 @@ body {
 }
 
 #settings-popup input[type="radio"] {
-    accent-color: black;
+    accent-color: white;
 }
 
 #PS4FWOK {
@@ -353,7 +350,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: #black;
+  background-color: #f0f0f0;
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0,0,0,0.1);
   text-align: center;
@@ -378,7 +375,7 @@ body {
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  background-color: black;
+  background-color: #f0f0f0;
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0,0,0,0.1);
   padding: 20px;
@@ -476,6 +473,7 @@ body {
     background-color: #333;
 }
 
+
 .loader {
     position: fixed;
     top: 50%;
@@ -493,7 +491,7 @@ body {
     border: 8px solid #ccc;
     border-top-color: #333;
     border-radius: 50%;
-    animation: spin 1s linear infinite;
+    animation: spin 0.8s linear infinite;
 }
 
 @keyframes spin {
